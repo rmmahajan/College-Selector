@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/grad_bg"
+    android:background="#C0C0C0"
     android:layout_height="match_parent"
     tools:context=".registration">
 
@@ -36,22 +36,22 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:ems="8"
-                android:hint="First Name"
+                android:ems="16"
+                android:hint="Full Name"
                 android:inputType="textPersonName" />
 
-            <EditText
-                android:id="@+id/ln"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/reg"
-                android:layout_marginLeft="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_toRightOf="@id/fn"
-                android:ems="8"
-                android:hint="Last Name"
-                android:inputType="textPersonName" />
+<!--            <EditText-->
+<!--                android:id="@+id/ln"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/reg"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_toRightOf="@id/fn"-->
+<!--                android:ems="8"-->
+<!--                android:hint="Last Name"-->
+<!--                android:inputType="textPersonName" />-->
 
             <EditText
                 android:id="@+id/eml"

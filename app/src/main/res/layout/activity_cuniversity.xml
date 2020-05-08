@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/grad_bg"
+    android:background="#C0C0C0"
     tools:context=".cuniversity">
 
     <ScrollView
@@ -31,14 +31,14 @@
                 android:layout_height="wrap_content"
                 android:textSize="28sp"
                 android:layout_marginTop="20dp"
-                android:textColor="#fffccc"
+                android:textColor="#ffffff"
                 android:textStyle="bold|italic"
                 android:text="Chandigarh University"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fdfcfb"
+                android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
                 android:text="Chandigarh University is a full-fledged university established by the Punjab State Legislature and is recognized by University Grants Commission under Section 2(f) with the right to confer degrees as per Section 22(1) of the UGC Act, 1956. Chandigarh University [CU] is one of the Best University in Chandigarh, Punjab and North India that offers various Undergraduate and Postgraduate Courses like B.tech, BCA, BBA, HMCT, B.Com, LLB, B.Arch, MBA, M.Tech, Journalism and MCA at an affordable fee in Chandigarh Ranked among Asia’s best and fastest growing universities, CU has coupled the experience of top industry leaders and renowned academicians and fosters a worldly approach."
@@ -50,7 +50,7 @@
                 android:text="Admission"
                 android:layout_marginTop="20dp"
                 android:textSize="25sp"
-                android:textColor="#fffccc"
+                android:textColor="#ffffff"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                 android:textSize="25sp"
                 android:layout_marginTop="20dp"
                 android:textStyle="bold|italic"
-                android:textColor="#fffccc"
+                android:textColor="#ffffff"
                 android:text="Placements"
                 />
 
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="In session 2017-18, 118 Multinational Companies from Core Engineering branches visited Chandigarh University and 1097 students were placed in engineering only. In 2017, 4690 students from sectors like Engineering, Management, Pharmacy, Hotel Management got placement offers from more than 360 companies."
-                android:textColor="#fdfcfb"
+                android:textColor="#ffffff"
                 android:layout_marginTop="20dp"
                 android:textSize="17sp" />
             <TextView
@@ -82,20 +82,20 @@
                 android:layout_marginTop="20dp"
                 android:textSize="25sp"
                 android:textStyle="bold|italic"
-                android:textColor="#fffccc"
+                android:textColor="#ffffff"
                 android:text="Residential and dining facilities"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fdfcfb"
+                android:textColor="#ffffff"
                 android:layout_marginTop="20dp"
                 android:textSize="17sp"
                 android:text="A wide spectrum of programs paired with flexibility, experiential learning, and interdisciplinary orientation emancipate our students to explore their interests and pursue fulfilling careers. At CU we are grooming students to be socially sensitive through intellectually challenging and contemporary diverse culture. Chandigarh University is accredited among the Leading and Best Educational Institution of North India. CU is constantly ranked among the top institutions of Punjab for academic excellence, innovative pedagogy, research, and placements by reputed national and international accreditation bodies and media houses."/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fffccc"
+                android:textColor="#ffffff"
                 android:layout_marginTop="20dp"
                 android:textSize="25sp"
                 android:textStyle="bold|italic"
@@ -104,7 +104,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fdfcfb"
+                android:textColor="#ffffff"
                 android:layout_marginTop="20dp"
                 android:textSize="17sp"
                 android:text="The University Institute Of Engineering, Chandigarh University was ranked 16th among engineering colleges in India by Outlook India in 2017."
@@ -119,13 +119,13 @@
                         android:textSize="22dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="Avaliability"
                         android:textSize="22dp"
                         android:layout_marginLeft="25dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -133,13 +133,13 @@
                         android:textSize="18dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="Seats"
                         android:textSize="18dp"
                         android:layout_marginLeft="20dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -147,13 +147,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="15"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -161,13 +161,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="13"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -175,13 +175,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="10"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -189,13 +189,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text=" "
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -203,13 +203,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text=" "
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -217,13 +217,13 @@
                         android:textSize="18dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="    "
                         android:textSize="18dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -231,13 +231,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="9"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -245,13 +245,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="11"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -259,13 +259,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="14"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -273,13 +273,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="6"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -287,13 +287,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="  "
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -301,13 +301,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text=" "
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -315,13 +315,13 @@
                         android:textSize="18dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="  "
                         android:textSize="18dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -329,13 +329,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="8"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -343,13 +343,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="12"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -357,13 +357,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="  "
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -371,13 +371,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="  "
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -385,13 +385,13 @@
                         android:textSize="18dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="  "
                         android:textSize="18dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -399,13 +399,13 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="20"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -413,20 +413,20 @@
                         android:textSize="15dp"
                         android:layout_marginLeft="5dp"
                         android:layout_gravity="left"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                     <TextView
                         android:text="22"
                         android:textSize="15dp"
                         android:layout_marginLeft="18dp"
                         android:layout_gravity="right"
-                        android:textColor="#fdfcfb"/>
+                        android:textColor="#ffffff"/>
                 </TableRow>
             </TableLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textColor="#fffccc"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:text="Give your ratings..."
                 />

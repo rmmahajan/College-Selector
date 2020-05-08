@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C0C0C0"
-    tools:context=".Chitkara">
+    tools:context=".Srm">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 android:textSize="30sp"
                 android:layout_marginTop="20dp"
                 android:textStyle="bold|italic"
-                android:text="Chitkara University"
+                android:text="SRM University"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara University in Punjab, has been founded by Dr. Ashok Chitkara and Dr. Madhu Chitkara, who have been passionate teachers for more than 40 years now. Since inception, Chitkara University has been different. Our students have been different. So are our faculty, our academic strengths and our outlook towards teaching and learning. Within a decade, most of our academic programs are ranked in top 50 programs in the country.Students from around the country are getting attracted to Chitkara University because of our commitment to teaching excellence, focus on research, tailored courses that makes our education relevant to changing career dynamics and formidable industry partnerships."
+                android:text="SRM Institute of Science and Technology (formerly known as SRM University) has been consistent to maintain excellence in the academic standards since its inception. Learning is an enjoyable experience here, with experienced faculty, inspiring libraries and stimulating discussion rooms, large playgrounds and state-of-the-art labs. With a view to impart quality education SRM Institute of Science and Technology (formerly known as SRM University) functions at four  campuses."
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
                 android:textSize="17sp"
                 android:textColor="#ffffff"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara University offers degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at Chitkara University are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
+                android:text="SRM University offers degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at SRM University are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -77,7 +77,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara offer degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at Chitkara are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
+                android:text="SRM University offers degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at SRM University are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara is a favoured recruitment destination for the majority of large and small corporations. Approximately 600 students apply for placements in each semester. Almost 100% of these students succeed in bagging a job. Around 200 reputed companies were hosted by the institution in 2017-2018 placement session. The university's placements session takes place in two separate phases. This is because only half of the graduating students are present on the campus at a particular time due to the Practice School Programme that takes place in the final year. "
+                android:text="SRM is a favoured recruitment destination for the majority of large and small corporations. Approximately 600 students apply for placements in each semester. Almost 100% of these students succeed in bagging a job. Around 200 reputed companies were hosted by the institution in 2017-2018 placement session. The university's placements session takes place in two separate phases. This is because only half of the graduating students are present on the campus at a particular time due to the Practice School Programme that takes place in the final year. "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara fest, a two-day management and technical fest organized every year by Delhi University includes more than 60 events like Battle of Bands, Group Dance, Fashion Show and exhibitions. The inter university fest witnesses participation of more than 1000 students from 11 colleges and universities like Aurobindo College, Jesus and Mary, G.D. Goenka, K.R. Mangalam, ITM University, Bharti Vidyapeeth."
+                android:text="SRMfest, a two-day management and technical fest organized every year by Delhi University includes more than 60 events like Battle of Bands, Group Dance, Fashion Show and exhibitions. The inter university fest witnesses participation of more than 1000 students from 11 colleges and universities like Aurobindo College, Jesus and Mary, G.D. Goenka, K.R. Mangalam, ITM University, Bharti Vidyapeeth."
                 />
             <TextView
                 android:layout_width="wrap_content"

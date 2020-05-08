@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/grad_bg"
+    android:background="#C0C0C0"
     android:layout_height="match_parent"
     tools:context=".registration2">
 
@@ -29,7 +29,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="8"
+                android:ems="16"
                 android:id="@+id/fn"
                 android:hint="First Name"
                 android:layout_below="@id/reg"
@@ -38,18 +38,18 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp" />
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="8"
-                android:id="@+id/ln"
-                android:hint="Last Name"
-                android:layout_below="@id/reg"
-                android:inputType="textPersonName"
-                android:layout_toRightOf="@id/fn"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp" />
+<!--            <EditText-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:ems="8"-->
+<!--                android:id="@+id/ln"-->
+<!--                android:hint="Last Name"-->
+<!--                android:layout_below="@id/reg"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:layout_toRightOf="@id/fn"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginLeft="20dp" />-->
 
             <EditText
                 android:layout_width="wrap_content"

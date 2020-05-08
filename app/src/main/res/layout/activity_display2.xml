@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    tools:context=".Display2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/v_flipper"
+                tools:ignore="InvalidId">
+            </ViewFlipper>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/i"
+                android:layout_below="@+id/v_flipper"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/lpu">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lovely Professional University"
+                android:textColor="@color/white"
+                android:id="@+id/it"
+                android:layout_toRightOf="@+id/i"
+                android:layout_gravity="center"
+                android:layout_below="@+id/ct"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Jalander ( Punjab )"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:rating="3.6"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/btn3"
+                android:background="@drawable/bt_bg"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/b"
+                android:layout_below="@+id/i"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/cu2">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chandigarh University"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/bt"
+                android:layout_toRightOf="@+id/i"
+                android:layout_below="@+id/it"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mohali ( Chandigarh )"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:rating="4.3"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/btn4"
+                android:background="@drawable/bt_bg"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/img"
+                android:layout_below="@+id/b"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/thapar">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thapar University"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/imgt"
+                android:layout_toRightOf="@+id/b"
+                android:layout_below="@+id/bt"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Patiala ( Punjab )"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:rating="4.3"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/btn5"
+                android:background="@drawable/bt_bg"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/du"
+                android:layout_below="@+id/img"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/du">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi University"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/dut"
+                android:layout_toRightOf="@+id/manipal"
+                android:layout_below="@+id/manipalt"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" Delhi "
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:rating="4.3"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/btn10"
+                android:background="@drawable/bt_bg"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

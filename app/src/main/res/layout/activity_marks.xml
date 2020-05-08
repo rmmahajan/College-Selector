@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/grad_bg"
+    android:background="#C0C0C0"
     android:layout_height="match_parent"
     tools:context=".marks">
 
@@ -16,6 +16,8 @@
         android:text="If you want to continue with test press OK"
         android:layout_marginStart="50dp"
         android:id="@+id/txt"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="100dp"
         />
@@ -25,6 +27,7 @@
         android:layout_height="wrap_content"
         android:text="OK"
         android:textSize="20dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/bt_bg"
         android:layout_below="@+id/txt"
         android:id="@+id/btn"

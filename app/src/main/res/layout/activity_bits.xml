@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C0C0C0"
-    tools:context=".Chitkara">
+    tools:context=".Bits">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 android:textSize="30sp"
                 android:layout_marginTop="20dp"
                 android:textStyle="bold|italic"
-                android:text="Chitkara University"
+                android:text="Bits University"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara University in Punjab, has been founded by Dr. Ashok Chitkara and Dr. Madhu Chitkara, who have been passionate teachers for more than 40 years now. Since inception, Chitkara University has been different. Our students have been different. So are our faculty, our academic strengths and our outlook towards teaching and learning. Within a decade, most of our academic programs are ranked in top 50 programs in the country.Students from around the country are getting attracted to Chitkara University because of our commitment to teaching excellence, focus on research, tailored courses that makes our education relevant to changing career dynamics and formidable industry partnerships."
+                android:text="Birla Institute of Technology and Science (BITS), Pilani is counted amongst the country's most prestigious private higher education institutes. This university of international standing traces its origin to 1901 when a small school 'Pathshala' was built in Pilani.BITS was established as an institute in 1964 with late Dr G.D. Birla as its founding chairman. Dr G.D. Birla was an eminent industrialist and a strong participant of the Indian freedom struggle. The main and the most reputed BITS campus is in Pilani, however, the institution has other world-class campuses in Hyderabad, Goa and Dubai. "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
                 android:textSize="17sp"
                 android:textColor="#ffffff"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara University offers degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at Chitkara University are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
+                android:text="BITS holds test for those who wish to study in the prestigious institution. Admission is offered based on the candidate's performance in the test. In case of international students, the institute accepts the SAT results and SAT Subject Test results in chemistry, mathematics and physics. The applications for taking the test are submitted in December and the test is conducted online in May and June in various cities across the country.The exam is based on higher secondary curricula in the country and abroad. The ratio of the number of applicants to the number of available seats is growing rapidly. The eligibility also depends on the marks secured in +2 examination. The students must receive at least 75% marks in chemistry, physics and mathematics to be considered eligible.  "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -77,7 +77,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara offer degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at Chitkara are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
+                android:text="Bits offer degree and diploma programmes to aspirants at undergraduate (UG), postgraduate (PG) and doctorate (PhD) level. The programmes offered at Bits are in streams including Science, Accounting and Commerce, Design, Humanities and Social Sciences, Arts (Fine/ Visual/Performing), Business and Management Studies, Hospitality and Travel, Architecture and Planning, Mass Communication and Media, Law, Medicine and Health Sciences, Nursing, IT and Software, Engineering, Banking, and Finance and Insurance. "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara is a favoured recruitment destination for the majority of large and small corporations. Approximately 600 students apply for placements in each semester. Almost 100% of these students succeed in bagging a job. Around 200 reputed companies were hosted by the institution in 2017-2018 placement session. The university's placements session takes place in two separate phases. This is because only half of the graduating students are present on the campus at a particular time due to the Practice School Programme that takes place in the final year. "
+                android:text="BITS Pilani is a favoured recruitment destination for the majority of large and small corporations. Approximately 600 students apply for placements in each semester. Almost 100% of these students succeed in bagging a job. Around 200 reputed companies were hosted by the institution in 2017-2018 placement session. The university's placements session takes place in two separate phases. This is because only half of the graduating students are present on the campus at a particular time due to the Practice School Programme that takes place in the final year. "
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:layout_marginTop="20dp"
-                android:text="Chitkara fest, a two-day management and technical fest organized every year by Delhi University includes more than 60 events like Battle of Bands, Group Dance, Fashion Show and exhibitions. The inter university fest witnesses participation of more than 1000 students from 11 colleges and universities like Aurobindo College, Jesus and Mary, G.D. Goenka, K.R. Mangalam, ITM University, Bharti Vidyapeeth."
+                android:text="Bitsfest, a two-day management and technical fest organized every year by Delhi University includes more than 60 events like Battle of Bands, Group Dance, Fashion Show and exhibitions. The inter university fest witnesses participation of more than 1000 students from 11 colleges and universities like Aurobindo College, Jesus and Mary, G.D. Goenka, K.R. Mangalam, ITM University, Bharti Vidyapeeth."
                 />
             <TextView
                 android:layout_width="wrap_content"
