@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -20,7 +22,7 @@ public class TestApp extends AppCompatActivity {
 
     Button b1,b2,b3,b4;
     TextView ques,timer;
-    int total=0,correct=0,wrong=0;
+    int total=0,correct=0,wrong=0,score=0;
     DatabaseReference reference;
 
     @Override
@@ -46,7 +48,7 @@ public class TestApp extends AppCompatActivity {
         {
 
             total=total-1;
-            Intent i = new Intent(TestApp.this,Second.class);
+            Intent i = new Intent(TestApp.this, Second.class);
             i.putExtra("total",String.valueOf(total));
             i.putExtra("correct",String.valueOf(correct));
             i.putExtra("incorrect",String.valueOf(wrong));
@@ -79,6 +81,7 @@ public class TestApp extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         correct++;
+                                        score=score+correct*10;
                                         b1.setBackgroundColor(Color.parseColor("#03A9F4"));
                                         updateQuestion();
                                     }
@@ -132,6 +135,7 @@ public class TestApp extends AppCompatActivity {
                                     public void run()
                                     {
                                         correct++;
+                                        score=score+correct*10;
                                         b2.setBackgroundColor(Color.parseColor("#03A9F4"));
                                         updateQuestion();
                                     }
@@ -185,6 +189,7 @@ public class TestApp extends AppCompatActivity {
                                     public void run()
                                     {
                                         correct++;
+                                        score=score+correct*10;
                                         b3.setBackgroundColor(Color.parseColor("#03A9F4"));
                                         updateQuestion();
                                     }
@@ -239,6 +244,7 @@ public class TestApp extends AppCompatActivity {
                                     public void run()
                                     {
                                         correct++;
+                                        score=score+correct*10;
                                         b4.setBackgroundColor(Color.parseColor("#03A9F4"));
                                         updateQuestion();
                                     }
@@ -307,11 +313,14 @@ public class TestApp extends AppCompatActivity {
             @Override
             public void onFinish() {
 
+                score = correct*10;
+                Toast.makeText(TestApp.this, "The score is "+score , Toast.LENGTH_LONG).show();
                 tv.setText("Completed");
-                Intent myIntent = new Intent(TestApp.this,Second.class);
+                Intent myIntent = new Intent(TestApp.this, Second.class);
                 myIntent.putExtra("total",String.valueOf(total));
                 myIntent.putExtra("correct",String.valueOf(correct));
                 myIntent.putExtra("incorrect",String.valueOf(wrong));
+                myIntent.putExtra("score",String.valueOf(score));
                 startActivity(myIntent);
 
             }

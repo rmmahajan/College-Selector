@@ -1,9 +1,9 @@
 package com.example.clg;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,10 +30,14 @@ public class MainActivity extends AppCompatActivity {
         b3=(Button)findViewById(R.id.button3);
         firebaseAuth=FirebaseAuth.getInstance();
         FirebaseUser user=firebaseAuth.getCurrentUser();
+
+
      /*   if(user!=null){
             finish();
             startActivity(new Intent(MainActivity.this,UserPage1.class));
         }*/
+
+
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,7 +91,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(getApplicationContext(), "Login successfully!!", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this,User1.class));
+                        startActivity(new Intent(MainActivity.this, User1.class));
+                        finish();
                     }
                     else{
                         Toast.makeText(getApplicationContext(), "Wrong Credential!!", Toast.LENGTH_SHORT).show();

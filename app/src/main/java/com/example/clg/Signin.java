@@ -1,9 +1,9 @@
 package com.example.clg;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,7 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class Signin extends AppCompatActivity {
-    private EditText fname,lname,phno,paswd,cpasswd,eml;
+    private EditText fname,phno,paswd,cpasswd,eml;
     private Button bttn;
     private FirebaseAuth firebaseAuth;
     private RadioGroup radioGroup;
@@ -31,7 +31,7 @@ public class Signin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
         fname=(EditText)findViewById(R.id.e1);
-        lname=(EditText)findViewById(R.id.e2);
+        //lname=(EditText)findViewById(R.id.e2);
         phno=(EditText)findViewById(R.id.e4);
         paswd=(EditText)findViewById(R.id.e5);
         cpasswd=(EditText)findViewById(R.id.e6);
@@ -54,7 +54,7 @@ public class Signin extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
-                                /*user.sendEmailVerification()
+                                user.sendEmailVerification()
                                         .addOnCompleteListener(new OnCompleteListener <Void>() {
                                             @Override
                                             public void onComplete(@NonNull Task <Void> task) {
@@ -68,7 +68,7 @@ public class Signin extends AppCompatActivity {
                                                 }
                                             }
                                         });
-*/
+
                                 Toast.makeText(getApplicationContext(), "SignUp Successful", Toast.LENGTH_SHORT).show();
                                 Intent change = new Intent(Signin.this, MainActivity.class);
                                 startActivity(change);
@@ -87,7 +87,7 @@ public class Signin extends AppCompatActivity {
     }
     public boolean checkFun(){
         String first_name=fname.getText().toString().trim();
-        String last_name=lname.getText().toString().trim();
+        //String last_name=lname.getText().toString().trim();
         String phone_no=phno.getText().toString().trim();
         String pass=paswd.getText().toString().trim();
         String email=eml.getText().toString().trim();
@@ -96,10 +96,10 @@ public class Signin extends AppCompatActivity {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Data Login");
 
         ref.child(first_name).child("FName").setValue(first_name);
-        ref.child(first_name).child("Last Name").setValue(last_name);
+        //ref.child(first_name).child("Last Name").setValue(last_name);
         ref.child(first_name).child("Phone No").setValue(phone_no);
         ref.child(first_name).child("EMail").setValue(email);
-        if(first_name.isEmpty() || last_name.isEmpty() || phone_no.isEmpty() || pass.isEmpty() || email.isEmpty() ||cpass.isEmpty() && paswd.equals(cpasswd)){
+        if(first_name.isEmpty() || phone_no.isEmpty() || pass.isEmpty() || email.isEmpty() ||cpass.isEmpty() && paswd.equals(cpasswd)){
             result=false;
         }
         else{

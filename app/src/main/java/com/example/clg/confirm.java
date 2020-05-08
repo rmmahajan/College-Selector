@@ -1,11 +1,10 @@
 package com.example.clg;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class confirm extends AppCompatActivity {
 
@@ -19,15 +18,17 @@ public class confirm extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(confirm.this,registration.class);
+                Intent i=new Intent(confirm.this, registration.class);
                 startActivity(i);
+                finish();
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(confirm.this,registration2.class);
+                Intent i=new Intent(confirm.this, registration2.class);
                 startActivity(i);
+                finish();
             }
         });
     }

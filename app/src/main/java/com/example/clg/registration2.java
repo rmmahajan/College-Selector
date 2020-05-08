@@ -1,9 +1,8 @@
 package com.example.clg;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,9 +12,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -40,7 +36,7 @@ public class registration2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration2);
         fname = (EditText) findViewById(R.id.fn);
-        lname = (EditText) findViewById(R.id.ln);
+        //lname = (EditText) findViewById(R.id.ln);
         phno = (EditText) findViewById(R.id.cno);
         // dept=(Spinner) findViewById(R.id.drp);
         eml = (EditText) findViewById(R.id.eml);
@@ -74,7 +70,7 @@ public class registration2 extends AppCompatActivity {
                        }
                    });*/
                     String first_name = fname.getText().toString().trim();
-                    String last_name = lname.getText().toString().trim();
+                    //String last_name = lname.getText().toString().trim();
                     String phone_no = phno.getText().toString().trim();
                     String email = eml.getText().toString().trim();
                     String tenmarks = tenmrks.getText().toString().trim();
@@ -86,7 +82,7 @@ public class registration2 extends AppCompatActivity {
                     DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Data Register2");
 
                     ref.child(first_name).child("First Name").setValue(first_name);
-                    ref.child(first_name).child("Last Name").setValue(last_name);
+                    //ref.child(first_name).child("Last Name").setValue(last_name);
                     ref.child(first_name).child("Phone No").setValue(phone_no);
                     ref.child(first_name).child("10th Marks").setValue(tenmarks);
                     ref.child(first_name).child("12th Marks").setValue(twelvemrks);
@@ -96,6 +92,7 @@ public class registration2 extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
                     Intent change = new Intent(registration2.this, User1.class);
                     startActivity(change);
+                    finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "Fill Correctly!!", Toast.LENGTH_SHORT).show();
                 }
@@ -115,7 +112,7 @@ public class registration2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView <?> parent, View view, int position, long id) {
 
-                Toast.makeText(getApplicationContext(), "Selected", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Selected", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -133,7 +130,7 @@ public class registration2 extends AppCompatActivity {
 
     public boolean checkFun() {
         String first_name = fname.getText().toString().trim();
-        String last_name = lname.getText().toString().trim();
+        //String last_name = lname.getText().toString().trim();
         String phone_no = phno.getText().toString().trim();
         String email = eml.getText().toString().trim();
         String tenmarks = tenmrks.getText().toString().trim();
@@ -142,7 +139,7 @@ public class registration2 extends AppCompatActivity {
         String confirmdept = condept.getText().toString().trim();
         String tmks = psw.getText().toString().trim();
         boolean result=false;
-        if(first_name.isEmpty() || last_name.isEmpty() || phone_no.isEmpty() || email.isEmpty() || address.isEmpty() || tenmarks.isEmpty()||confirmdept.isEmpty() || twelvemrks.isEmpty()){
+        if(first_name.isEmpty() || phone_no.isEmpty() || email.isEmpty() || address.isEmpty() || tenmarks.isEmpty()||confirmdept.isEmpty() || twelvemrks.isEmpty()){
             result=false;
         }
         else{

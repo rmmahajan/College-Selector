@@ -6,22 +6,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class marks extends AppCompatActivity {
+public class Display3 extends AppCompatActivity {
 
     Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_marks);
+        setContentView(R.layout.activity_display3);
 
-        btn = findViewById(R.id.btn);
+        btn = findViewById(R.id.bc_btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(marks.this,TestApp.class);
-                startActivity(i);
+
+                Intent intent = new Intent(Display3.this,User1.class);
+                startActivity(intent);
+                finish();
+
             }
         });
     }
